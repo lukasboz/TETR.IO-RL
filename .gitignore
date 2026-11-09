@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+node_modules/
+.env
+!*.example
+runs/
+*.pt
+portable/model.json
+portable/model.rs
+arena/dist/model.json
+arena/dist/model.mjs
+integrations/tetr-online/upstream/

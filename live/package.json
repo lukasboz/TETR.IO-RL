@@ -1,0 +1,12 @@
+{
+  "name": "tetrio-rl-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.4.0" },
+  "scripts": {
+    "start": "node --env-file=../.env index.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": { "@haelp/teto": "4.2.7" }
+}
